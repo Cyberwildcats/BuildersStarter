@@ -6,11 +6,13 @@ Login to the Proxmox cluster and create a new Windows VM in the Cyberwildcats Po
 
 ![Ubuntu ISOs in Cyberwildcats Proxmox](images/ubuntu-iso.png)
 
-After installing the operating system, install one or more of the following server packages:
+After installing the operating system, install one or more of the following server packages.  
 
-1. Apache
-2. Postfix
-3. Samba
-4. MySQL
-5. Postgresql
-6. Bind
+* [SSH server](services/ssh.md)
+* [Apache web server](services/apache.md)
+* [Postfix mail server](services/postfix.md)
+* [Samba SMB file server](services/samba.md)
+* [MySQL database server](services/mysql.md)
+* [Postgresql database server](services/postgres.md)
+* [BIND DNS server](services/bind.md)
+* [Network File System (NFS)](services/nfs.md)
